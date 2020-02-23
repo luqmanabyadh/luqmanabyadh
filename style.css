@@ -144,3 +144,33 @@ ul.jobs {
     max-height: 20%;
     text-align: center;
 }
+
+.contactme {
+    text-align: center;
+    font-family: Georgia;
+    color: #f13c20;
+    text-transform: lowercase;
+}
+
+ul.sosmed {
+    text-align: center;
+}
+
+.sosmed li {
+    margin-top: 10px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sosmed a {
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.logososmed {
+    max-width: 2%;
+    max-height: 2%;
+}
