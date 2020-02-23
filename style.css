@@ -1,19 +1,146 @@
+body {
+    background-color: #efe2ba;
+}
+
+#wrapper {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #efe2ba;
+    padding: 10px;
+}
+
 header {
-    min-width: 500px;
     background-color: #f13c20;
-    font-family: ;
-    width: 100%;
-    height: auto;
+    height: 150px;
+    padding: 4px;
 }
 
-img {
-    width: 100%;
-    height: auto;
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    color: #efe2ba;
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: repeat(2 450px);
-    
+header h3 {
+    text-align: center;
+    color: #efe2ba;
+    text-transform: lowercase;
+    font-family: 'Noto Sans JP';
+}
+
+.navbar {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 28px;
+    background-color: #d79922;
+    font-family: 'Noto Sans JP';
+}
+
+ul.navbar {
+    margin-top: 15px;
+}
+
+.navbar li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #efe2ba;
+    text-transform: lowercase;
+    font-family: 'Noto Sans JP';
+}
+
+.navbar a:hover {
+    background-color: #efe2ba;
+    color: #f13c20;
+}
+
+img.fotodiri {
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 20px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.myprofile {
+    text-align: center;
+    font-family: Georgia;
+    color: #f13c20;
+    text-transform: lowercase;
+}
+
+.profilesum {
+    text-align: center;
+    font-family: 'Noto Sans JP';
+    margin: 0 20%;
+    color: #d79922;
+}
+
+.competencies1 {
+    text-align: center;
+    font-family: Georgia;
+    color: #f13c20;
+    text-transform: lowercase;
+}
+
+ul.competencies {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.competencies li {
+    display: inline;
+    padding: 10px 0 10px 0;
+    margin: 0px 10px;
+}
+
+.competencies a {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.jobs1 {
+    text-align: center;
+    font-family: Georgia;
+    color: #f13c20;
+    text-transform: lowercase;
+}
+
+ul.jobs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.jobs li {
+    display: inline;
+    padding: 10px 0 10px 0;
+    margin: 0px 10px;
+    font-family: 'Noto Sans JP';
+    color: #d79922;
+}
+
+.jobspic {
+    max-width: 20%;
+    max-height: 20%;
+    text-align: center;
 }
